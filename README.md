@@ -5,7 +5,7 @@ An android app for  mantel health's
 
 App Link - https://play.google.com/store/apps/details?id=com.shadspace.soup_it 
 
-Website Link - https://new.soupit.in/
+Website Link - https://soupit.in/
 
 ### Features : 
 * Good News
