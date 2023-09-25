@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/contactPop"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txtclose"
+            android:layout_width="30sp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="@drawable/circlebackground"
+            android:gravity="center"
+            android:text="X"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+           <com.airbnb.lottie.LottieAnimationView
+               android:layout_width="wrap_content"
+               android:layout_height="200dp"
+               app:lottie_loop="true"
+               app:lottie_autoPlay="true"
+               app:lottie_fileName="messageSent.json"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message Sent "
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/tienne"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keep an eye out for an mail"
+                android:textColor="@color/black"
+                android:fontFamily="@font/tienne"/>
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:background="@drawable/bg_card"
+            android:layout_marginTop="15dp"
+            android:visibility="visible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

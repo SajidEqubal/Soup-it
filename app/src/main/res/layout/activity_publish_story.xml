@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_white"
+    android:orientation="vertical"
+    tools:context=".activity.PublishStory">
+
+    <ImageView
+        android:layout_width="347dp"
+        android:layout_height="306dp"
+        android:src="@drawable/bg"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:transitionName="PUB">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        android:id="@+id/back"
+                        style="@style/Widget.Neumorph.FloatingActionButton"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerInside"
+                        app:neumorph_shapeType="pressed">
+
+                        <ImageView
+
+                            android:layout_width="30dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/back1" />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                </LinearLayout>
+
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Write &amp; Earn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/publish" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layTitle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <soup.neumorphism.NeumorphTextView
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Write your "
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <soup.neumorphism.NeumorphTextView
+                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                app:neumorph_shadowColorLight="@color/solid_light_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Story Title "
+                android:textColor="@color/black"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tv_empty"
+                android:textColor="#ff3333"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Please write your story title !"
+                android:visibility="gone"/>
+
+
+            <EditText
+                android:id="@+id/editTextStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColorHint="@color/black"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
+
+
+                >
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="top"
+                    android:hint="Story Title"
+                    android:textColor="@color/black"
+                    android:textColorHint="#000000">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layType"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select your "
+                    android:textColor="@color/black"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Story Type "
+                    android:textColor="@color/black"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/selectType"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:hint="Select Story Type"
+                    android:textColorHint="@color/black"
+                    app:boxStrokeColor="@color/black"
+                    app:counterTextColor="@color/black"
+                    app:hintTextColor="@color/black">
+
+
+                    <AutoCompleteTextView
+                        android:id="@+id/actType"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:inputType="none"
+                        android:text="Happy Mind"
+                        android:textColor="@color/black" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layStory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start Your"
+                    android:textColor="@color/black"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Story "
+                    android:textColor="@color/black"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textColorHint="@color/black"
+                    app:boxStrokeColor="@color/black"
+                    app:hintTextColor="@color/black"
+
+
+                    >
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editTextStory"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="90dp"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="top"
+                        android:hint="Write Your Story"
+                        android:textColor="@color/black"
+                        android:textColorHint="#000000">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/Loading"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="90dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/load"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="quotRefresh.json"
+            app:lottie_loop="true" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LinButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <soup.neumorphism.NeumorphButton
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            android:id="@+id/next"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@color/black" />
+
+        <soup.neumorphism.NeumorphButton
+            app:neumorph_shadowColorDark="@color/solid_dark_color"
+            app:neumorph_shadowColorLight="@color/solid_light_color"
+            android:id="@+id/review"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:text="Review"
+            android:visibility="gone"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

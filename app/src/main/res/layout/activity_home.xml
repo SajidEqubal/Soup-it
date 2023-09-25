@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_white"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="347dp"
+        android:layout_height="306dp"
+        android:src="@drawable/bg"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+
+                        <ImageView
+                            android:id="@+id/signUp"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/man" />
+
+                        <TextView
+                            android:id="@+id/versionCheck"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <TextView
+                            android:id="@+id/versionApp"
+                            android:visibility="gone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+
+
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:id="@+id/Profile"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            app:lottie_loop="true"
+                            app:lottie_autoPlay="true"
+                            android:scaleType="centerCrop"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            app:lottie_fileName="menu2.json" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <soup.neumorphism.NeumorphTextView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Find Your"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        android:textStyle="bold" />
+
+                    <soup.neumorphism.NeumorphTextView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Happy Place!"
+                        android:textColor="@color/black"
+                        android:textSize="36dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D3D3D3">
+
+
+                </LinearLayout>
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/basin_image_view"
+                    style="@style/Widget.Neumorph.ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:scaleType="centerInside"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:neumorph_shapeType="basin">
+
+                    <LinearLayout
+                        android:id="@+id/quotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="horizontal">
+
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Quote of the day"
+                                android:textColor="@color/black"
+                                android:textSize="20dp" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="relaxx.json"
+                                app:lottie_loop="true" />
+
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <soup.neumorphism.NeumorphTextView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Categories"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="26dp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <HorizontalScrollView
+                        android:scrollbars="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fillViewport="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                android:layout_height="210dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color"
+                                android:background="@color/cardOne">
+
+
+                                <LinearLayout
+                                    android:id="@+id/btn_soul"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardOne"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        android:src="@drawable/logo" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SOUL GURU"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                android:layout_height="210dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color"
+                                android:background="@color/cardOne">
+
+
+                                <LinearLayout
+                                    android:id="@+id/btn_event"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardSix"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        app:lottie_autoPlay="true"
+                                        app:lottie_fileName="events.json"
+                                        app:lottie_loop="true" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="EVENTS"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                android:layout_height="210dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color">
+
+
+                                <LinearLayout
+                                    android:id="@+id/btn_game"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardTwo"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        app:lottie_autoPlay="true"
+                                        app:lottie_fileName="game.json"
+                                        app:lottie_loop="true" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="PLAY GAME"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+                            </soup.neumorphism.NeumorphCardView>
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color"
+                                android:layout_height="210dp">
+
+                                <LinearLayout
+                                    android:id="@+id/btn_blog"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardThree"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        app:lottie_autoPlay="true"
+                                        app:lottie_fileName="blogs.json"
+                                        app:lottie_loop="true" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="BLOGS"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+
+
+                            </soup.neumorphism.NeumorphCardView>
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color"
+                                android:layout_height="210dp">
+
+
+                                <LinearLayout
+                                    android:id="@+id/btn_story"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardFour"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        app:lottie_autoPlay="true"
+                                        app:lottie_fileName="story.json"
+                                        app:lottie_loop="true" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="SHORT STORY"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+                            </soup.neumorphism.NeumorphCardView>
+
+                            <soup.neumorphism.NeumorphCardView
+                                style="@style/Widget.Neumorph.CardView"
+                                android:layout_width="170dp"
+                                app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                app:neumorph_shadowColorLight="@color/solid_light_color"
+                                android:layout_height="210dp">
+
+
+                                <LinearLayout
+                                    android:id="@+id/btn_write"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/cardFive"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <com.airbnb.lottie.LottieAnimationView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="top|center"
+                                        app:lottie_autoPlay="true"
+                                        app:lottie_fileName="writeEarn.json"
+                                        app:lottie_loop="true" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:text="Write &amp; Earn"
+                                        android:textColor="@color/black"
+                                        android:textSize="16dp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+                            </soup.neumorphism.NeumorphCardView>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+
+                        <soup.neumorphism.NeumorphTextView
+                            app:neumorph_shadowColorDark="@color/solid_dark_color"
+                            app:neumorph_shadowColorLight="@color/solid_light_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Good News"
+                            android:textColor="@color/black"
+                            android:textSize="26dp" />
+
+                        <LinearLayout
+                            android:id="@+id/showAll"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:gravity="center_vertical"
+                            >
+
+
+                        <soup.neumorphism.NeumorphTextView
+                            app:neumorph_shadowColorDark="@color/solid_dark_color"
+                            app:neumorph_shadowColorLight="@color/solid_light_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Show All"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:padding="5dp"
+                            android:src="@drawable/right_ic" />
+
+                        </LinearLayout>
+
+
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+
+                    <com.mikelau.views.shimmer.ShimmerRecyclerViewX
+                        android:id="@+id/Rec_GoodNews"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        app:shimmer_demo_angle="20"
+                        app:shimmer_demo_child_count="10"
+                        app:shimmer_demo_grid_child_count="10"
+                        app:shimmer_demo_layout="@layout/shimmer_good_news"
+                        tools:listitem="@layout/demo_goodnews">
+
+
+                    </com.mikelau.views.shimmer.ShimmerRecyclerViewX>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

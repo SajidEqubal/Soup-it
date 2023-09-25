@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_white"
+    tools:context=".activity.HowWork">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+
+                    <soup.neumorphism.NeumorphCardView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        style="@style/Widget.Neumorph.FloatingActionButton"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerInside"
+                        app:neumorph_shapeType="pressed">
+
+                        <ImageView
+                            android:id="@+id/back"
+                            android:layout_width="30dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/back" />
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+                </LinearLayout>
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="How it Works ?"
+                    android:textColor="@color/black"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Soul Guru"/>
+
+        <TextView
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:padding="16dp"
+            android:text="@string/solguru"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne_bold"
+            android:padding="18dp"
+            android:text="@string/solguru2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/solguru3.1"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/solguru3.2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/solguru3.3"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/solguru3.4"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/solguru3.5"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Play Game"/>
+
+        <TextView
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:padding="16dp"
+            android:text="@string/playgame"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne_bold"
+            android:padding="18dp"
+            android:text="@string/playgame2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.1"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.3"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.4"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.5"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/playgame3.6"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne_bold"
+            android:text="@string/playgame3.7"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Your Stories"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:lineSpacingExtra="10dp"
+            android:padding="16dp"
+            android:text="@string/yourstory"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne_bold"
+            android:padding="18dp"
+            android:text="@string/playgame2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.1"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.3"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.4"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.5"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.6"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.7"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.8"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.9"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.10"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory3.11"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne_bold"
+            android:text="@string/yourstory4"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:padding="16dp"
+            android:text="@string/yourstory4.0"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.1"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.2"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.3"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.4"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.5"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.6"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        <TextView
+            android:padding="5dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:text="@string/yourstory4.7"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Blogs"/>
+
+        <TextView
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:padding="16dp"
+            android:text="@string/blogs"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Good News"/>
+
+        <TextView
+            android:lineSpacingExtra="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/tienne"
+            android:padding="16dp"
+            android:text="@string/goodnews"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</RelativeLayout>

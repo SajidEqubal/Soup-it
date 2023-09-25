@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_white"
+    tools:context=".activity.Share">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="#E2E2E2"
+        android:gravity="center">
+
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="share1.json"
+            app:lottie_loop="true" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invite Your Friend"
+                    android:textColor="@color/black"
+                    android:textSize="36dp"
+                    android:textStyle="bold" />
+
+                <soup.neumorphism.NeumorphTextView
+                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap to share or inviting using"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                     />
+
+            </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/profileTab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    >
+
+                    <soup.neumorphism.NeumorphCardView
+                        app:neumorph_shadowColorDark="@color/solid_dark_color"
+                        app:neumorph_shadowColorLight="@color/solid_light_color"
+                        android:id="@+id/basin_image_view"
+                        style="@style/Widget.Neumorph.ImageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:scaleType="centerInside"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:neumorph_shapeType="basin" >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="88dp"
+                                android:layout_gravity="center">
+
+
+                                <soup.neumorphism.NeumorphCardView
+                                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                                    style="@style/Widget.Neumorph.FloatingActionButton"
+                                    android:layout_width="88dp"
+                                    android:layout_height="88dp"
+                                    android:scaleType="centerInside"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/Instagram"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/in"/>
+
+
+
+                                </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="88dp"
+                                android:layout_gravity="center">
+
+
+                                <soup.neumorphism.NeumorphCardView
+                                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                                    style="@style/Widget.Neumorph.FloatingActionButton"
+                                    android:layout_width="88dp"
+                                    android:layout_height="88dp"
+                                    android:scaleType="centerInside"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/Facebook"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/facebook"/>
+
+
+
+                                </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="88dp"
+                                android:layout_gravity="center">
+
+
+                                <soup.neumorphism.NeumorphCardView
+                                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                                    style="@style/Widget.Neumorph.FloatingActionButton"
+                                    android:layout_width="88dp"
+                                    android:layout_height="88dp"
+                                    android:scaleType="centerInside"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/Whats"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/whats"/>
+
+
+
+                                </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="88dp"
+                                android:layout_gravity="center">
+
+
+                                <soup.neumorphism.NeumorphCardView
+                                    app:neumorph_shadowColorDark="@color/solid_dark_color"
+                                    app:neumorph_shadowColorLight="@color/solid_light_color"
+                                    style="@style/Widget.Neumorph.FloatingActionButton"
+                                    android:layout_width="88dp"
+                                    android:layout_height="88dp"
+                                    android:scaleType="centerInside"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/More"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:src="@drawable/moree"/>
+
+
+
+                                </soup.neumorphism.NeumorphCardView>
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </soup.neumorphism.NeumorphCardView>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

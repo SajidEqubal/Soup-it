@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Lay_PopularBlog"
+        android:layout_marginLeft="15dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="220dp"
+            android:layout_height="188dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20dp">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorGreySoft" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <View
+            android:layout_width="85dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="14dp"
+            android:background="@drawable/bg_shimmer" />
+
+
+
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/bg_shimmer" />
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/PB_Content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Content"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/PB_Written"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="by Saepol "
+                android:textColor="#FD9297"
+                android:textSize="14sp" />
+
+
+            <View
+                android:layout_width="85dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="14dp"
+                android:background="@drawable/bg_shimmer" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

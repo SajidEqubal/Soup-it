@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="fab_white">#19191E</color>
+
+    <color name="splash">#EFEEEE</color>
+
+
+    <color name="demo_dark_transparent">#DCDCDC</color>
+
+
+    <color name="solid_light_color">#25252c</color>
+    <color name="solid_dark_color">#0d0d10</color>
+
+    <color name="black">#DCDCDC</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <!-- Text Color -->
+    <color name="txt_white">#000000</color>
+
+
+    <!-- Card Color -->
+    <color name="cardOne">#19191E</color>
+    <color name="cardTwo">#19191E</color>
+    <color name="cardThree">#19191E</color>
+    <color name="cardFour">#19191E</color>
+    <color name="cardFive">#19191E</color>
+    <color name="cardAll">#19191E</color>
+
+
+
+    <color name="ReadColor">#EEEEEE</color>
+
+    <color name="BlogReadBg">#19191E</color>
+    <color name="BlogReadBg2">#19191E</color>
+
+    <color name="ReadColorTwo">#EEEEEE</color>
+
+
+    <color name="StoryBg">#19191E</color>
+
+    <color name="ReviewBg">#19191E</color>
+
+    <color name="ReviewTitle">#EEEEEE</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

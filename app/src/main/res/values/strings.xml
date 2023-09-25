@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Soup-It</string>
+
+    <string name="app_update">1.2.3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_home">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string-array name="storyType">
+        <item>Social</item>
+        <item>Comedy</item>
+        <item>Peace</item>
+        <item>Mind</item>
+        <item>Relax</item>
+
+
+    </string-array>
+
+
+    <string name="demoTxt">This is my advice on improving the UX of your designs WITHOUT hours of user research sessions, paper prototyping playtime, or any other trendy UX buzzwords.
+
+(Seriously, search “design thinking”. 0 results. Nailed it!)
+
+Who’s this article for? I’m looking at you:
+
+Developers. You created your own app, but every time someone downloads it, they struggle to use it. And you know if they’re telling you this, then it’s really bad.
+Graphic designers. Looking to make the transition into digital, but trying to learn UX by reading articles online is… a very painful way to die 😬
+PMs. Your job is already like 25% UX designer. Would be nice to level up those skills.
+And the hustlers. Anyone working on digital side projects nights/weekends. This one’s for you too 🍻
+If you’re already a UX designer, I don’t expect this article to go over super well with you. I’m basically skipping over entire chunks of our field in favor of focusing entirely on the single most lacking skill in aspiring UX designers (or UX-adjacent folks who find themselves designing screens).
+
+I call it “speaking interface”.
+
+When I started as a professional UX designer, I was shocked how many times my clients would hand me the initial wireframes (or the living, breathing, in-browser MVP) and there’d be completely obvious UX mistakes all over them. I’m not talking about things you need hours of research and A/B testing to discover. I’m talking, like, dead simple mistakes.</string>
+
+
+    <string name="solguru">Talk Therapy is one of the most powerful tools to cope with mental health issues. Everyone wants to have someone to talk to, someone who is available to listen to you talk about your feelings. You can find solace by talking to our Soul Gurus on board, when you find no one to listen to you. There might be things you cannot share with your family and friends, which you can openly discuss with our Soul Gurus.</string>
+    <string name="solguru2">Benefits of Soul Gurus</string>
+
+    <string name="solguru3.1">
+        1.	Affordable and Budget Friendly
+
+</string>
+
+    <string name="solguru3.2">
+2.	Cheaper than Conventional Counseling and Therapy
+</string>
+
+    <string name="solguru3.3">
+3.	Personalized and Easy to access services
+
+</string>
+
+
+    <string name="solguru3.4">
+4.	Wide range of options at your fingertips
+
+</string>
+
+
+    <string name="solguru3.5">
+5.	Therapy for everyday life.
+</string>
+
+
+    <string name="playgame">According to a survey by Reycreo, 80% of people play games to relieve stress and relax. May it be negative emotions or mere fatigue you want to drive away, games help you to find inner peace and provide stimulation for tired minds. But games are more than that.</string>
+    <string name="playgame2">Games help:</string>
+
+    <string name="playgame3.1">
+        1.	Improve memory and multitasking skills.
+
+</string>
+
+    <string name="playgame3.2">
+2.	Enhances concentration
+</string>
+
+    <string name="playgame3.3">
+3.	Teaches problem solving
+
+</string>
+
+
+    <string name="playgame3.4">
+4.	Increases Imagination and Creativity
+
+</string>
+
+
+    <string name="playgame3.5">
+5.	Teaches Life Skills
+</string>
+
+
+    <string name="playgame3.6">
+    6.	Eases Anxiety, Stress and Depression
+</string>
+
+    <string name="playgame3.7">
+  Games at Soup It are blissful, and entirely free!
+</string>
+
+
+    <string name="yourstory">Real People, Real Stories, Real Thoughts, Real Experiences. Read them all here, and share your own thoughts.
+A Penny for Your Thoughts is not just a proverb for Soup It. We value your stories, experiences, feelings and thoughts more than anyone else. You can earn by submitting your content to Soup It.
+</string>
+    <string name="yourstory2">What can you write about?</string>
+
+    <string name="yourstory3.1">
+       1.	Your unsaid feelings
+
+</string>
+
+    <string name="yourstory3.2">
+2.	Daydreams and Musings
+</string>
+
+    <string name="yourstory3.3">
+3.	Experiences
+
+</string>
+
+
+    <string name="yourstory3.4">
+4.	Stories
+
+</string>
+
+
+    <string name="yourstory3.5">
+5.	Imagination
+</string>
+
+
+    <string name="yourstory3.6">
+6.	Feelings and Confessions
+</string>
+
+    <string name="yourstory3.7">
+7.	Random Thoughts
+</string>
+
+
+    <string name="yourstory3.8">
+8.	Creative Contents such as Poems, short stories etc.
+</string>
+
+
+    <string name="yourstory3.9">
+9.	Daily Journals or Diary entries
+</string>
+
+
+    <string name="yourstory3.10">
+10.	Open Letters
+</string>
+
+
+    <string name="yourstory3.11">
+11.	Blogs,  And many more.
+</string>
+
+
+    <string name="yourstory4">
+Why should you write about it?
+</string>
+
+
+    <string name="yourstory4.0">
+Writing down about your thoughts help you prioritize your concerns, problems and fears. It gives you an opportunity to dandify your thought patterns and a scope for positive thoughts. It also
+</string>
+
+    <string name="yourstory4.1">
+1.	Improves your mood
+</string>
+
+    <string name="yourstory4.2">
+2.	Boosts self esteem
+</string>
+
+    <string name="yourstory4.3">
+3.	Lightens burdens
+</string>
+
+
+    <string name="yourstory4.4">
+4.	Alleviates anxiety and Stress
+</string>
+
+    <string name="yourstory4.5">
+5.	Gives you Freedom and acceptance
+</string>
+
+
+    <string name="yourstory4.6">
+6.	Helps your discover yourself
+</string>
+
+
+    <string name="yourstory4.7">
+7.	Inspired people
+</string>
+
+
+    <string name="blogs">
+Find all varieties of blogs related to lifestyle, personal development, mental health, activities, stress busters and motivation here from a range of verified and professional sources. These knowledge will help you lead a more mindful and healthy life. At Soup It we aim to create a healthy, happier and stress-free individual by breaking the stigma around mental health and well-being. Scroll through the vide variety of blogs available that cater to the needs of every individual in every kind of situation.
+You can bookmark your favourite blogs and also share them with your family &amp; friends.
+
+</string>
+
+
+    <string name="goodnews">
+“Happiness is the only thing that multiplies when you share it”
+Albert Schweitzer was right in his words. We can create a happier and healthier society only through inspiring and positive news. Studies from several institutes, such as University of Maryland, has proven that continuously being exposed to disturbing news and negative updates cause anxiety and increase the stress hormone. Similarly another researches by Brigham Young University and Gonzaga University have shown that sharing and reading Good News improves the health, mood and helps a person be more successful in their daily life.
+You can scroll through several positive and happy news from all over the world, and balance your exposure to negative media with positive information. Soup It provides regular updates to remind you of the kindness and goodness prevailing in our society even during tough and hard times.
+
+</string>
+
+
+</resources>

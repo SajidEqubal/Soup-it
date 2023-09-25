@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17347855487",
+    "project_id": "soup-it-5e9ea",
+    "storage_bucket": "soup-it-5e9ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17347855487:android:24a4f7d0ce03c8ee4e6b4a",
+        "android_client_info": {
+          "package_name": "com.shadspace.soup_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17347855487-7i0b4qop2r5oj8cg6cncrl2r6rqke73u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA8SjoUZ0nWBSFN3B8hQhdKbq-BGALGtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17347855487-7i0b4qop2r5oj8cg6cncrl2r6rqke73u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
